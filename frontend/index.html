@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartMart AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div><strong>SmartMart</strong><span> AI</span></div>
+    <nav><a href="#products">Sản phẩm</a><a href="#assistant">Trợ lý AI</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">SIÊU THỊ THÔNG MINH</p>
+        <h1>Tìm đúng sản phẩm<br><span>nhanh hơn mỗi ngày.</span></h1>
+        <p>Tìm kiếm bằng tên, ngân sách hoặc tải ảnh sản phẩm để nhận diện.</p>
+      </div>
+      <div class="search-box">
+        <input id="keyword" placeholder="Bạn muốn tìm sản phẩm gì?">
+        <button id="searchButton">Tìm kiếm</button>
+      </div>
+      <label class="upload">Tải ảnh sản phẩm
+        <input id="imageFile" type="file" accept="image/jpeg,image/png,image/webp">
+      </label>
+      <p id="imageStatus" class="muted"></p>
+    </section>
+    <section id="products">
+      <div class="section-title"><h2>Sản phẩm tìm thấy</h2></div>
+      <div id="productList" class="products"></div>
+    </section>
+    <section id="assistant" class="assistant">
+      <h2>Trợ lý SmartMart AI</h2>
+      <div id="chatMessages" class="messages"><p class="bot">Xin chào! Tôi có thể tra cứu sản phẩm trong siêu thị.</p></div>
+      <div class="chat-input"><input id="question" placeholder="Ví dụ: sản phẩm nào dưới 100.000 đồng?"><button id="sendButton">Gửi</button></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
