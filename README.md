@@ -97,4 +97,3 @@ API `POST /api/chat` nhận:
 Chưa có dữ liệu giá bán hoặc tồn kho mẫu trong giai đoạn này. Những dữ liệu đó
 phải được nhập từ nguồn kinh doanh thật của siêu thị, không lấy từ
 `GroceryStoreDataset`.
->>>>>>> f121577 (Build SmartMart AI supermarket chatbot)
